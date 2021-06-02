@@ -122,6 +122,7 @@ import time
 message = 'Test Message'
 
 start_time = time.time() 
+
 prediction = predictor.predict(message)
 
 print('predicted: {} ({:.2f})'.format(prediction, (time.time() - start_time)))
